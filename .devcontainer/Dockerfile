@@ -20,3 +20,5 @@ ENV PATH="/opt/venv/bin:$PATH"
 
 # Install Python packages within the virtual environment
 RUN pip install --no-cache-dir torch torchvision tensorboard torchviz
+
+RUN pip install --no-cache-dir pylint
